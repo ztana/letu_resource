@@ -26,8 +26,8 @@
 
     var descriptor = {
         blocks: [
-          ['', 'javascript %s', 'custom'],
-          ['', 'swtich %s %s', 'switch'],
+          ['', 'run %s', 'custom'],
+          ['', 'swtich %s to %s', 'switch'],
           ['', 'test', 'test']
         ]
     };
