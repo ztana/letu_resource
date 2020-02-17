@@ -12,14 +12,14 @@
     };
 
     ext.switch = function(id, status) {
-      var url = new URL('http://napi.letufun.com/profile')
+      var url = new URL('http://34.92.88.59:8088/profile')
       params = {orem:id,op:'set',v:status}
       Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
       fetch(url);
     };
 
     ext.test = function() {
-      fetch('http://napi.letufun.com/profile?orem=1&op=set&v=7');
+      fetch('http://34.92.88.59:8088/profile?orem=1&op=set&v=7');
     };
 
     //End of extensions
